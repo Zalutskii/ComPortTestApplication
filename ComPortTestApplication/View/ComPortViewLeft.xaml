@@ -56,7 +56,7 @@
         <Label Content="Отправляемое сообщение" Grid.Row="5" HorizontalContentAlignment="Left" VerticalContentAlignment="Center"/>
         <TextBlock Text="{Binding OutgoingMessageByte, Converter={StaticResource ByteArrayToTextConverter}}" Grid.Column="1" Grid.Row="5" Margin="5,0" Grid.ColumnSpan="2"/>
 
-        <Button Command="{Binding SendMessageCommand}" Content="Send message" Grid.Row="6" Grid.ColumnSpan="3" Margin="5"/>
+        <Button Command="{Binding SendMessageCommand}" Content="Отправить сообщение" Grid.Row="6" Grid.ColumnSpan="3" Margin="5"/>
 
         <Label Content="Полученное сообщение" Grid.Row="7" HorizontalContentAlignment="Left" VerticalContentAlignment="Center"/>
         <TextBlock Text="{Binding IncomingMessage, Converter={StaticResource ByteArrayToTextConverter}}" Grid.Column="1" Grid.Row="7" Margin="5" Grid.ColumnSpan="2"/>
